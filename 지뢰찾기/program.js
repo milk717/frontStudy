@@ -82,7 +82,7 @@ function setGame(size) {
                 tdArr[targetTile].innerHTML = "💣"
                 alert("GAME OVER!!")
             }else if(mineArr[x][y] == 0){
-                tdArr[targetTile].innerHTML = ""
+                tdArr[targetTile].add()
             }
             else{
                 tdArr[targetTile].innerHTML = mineArr[x][y]
